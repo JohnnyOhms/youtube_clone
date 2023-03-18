@@ -71,9 +71,12 @@ const Navbar = () => {
             aria-label="open drawer"
             edge="start"
             onClick={toggleDrawer("left", true)}
-            sx={{ ml: 1, display: { xs: "block", sm: "block", md: "none" } }}
+            sx={{
+              ml: 1,
+              display: { xs: "block", sm: "block", md: "none" },
+            }}
           >
-            <MenuIcon />
+            <MenuIcon sx={{ fontSize: "40px" }} />
           </IconButton>
           <div className="logo">
             <Link to="/" style={{ zIndex: 2 }}>

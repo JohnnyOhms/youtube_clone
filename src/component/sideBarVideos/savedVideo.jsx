@@ -122,9 +122,7 @@ const SavedVideo = ({ channel, title, createdAt, _id, thumbnail, videoId }) => {
               }}
               onClick={handleDelete}
             >
-              <DeleteForeverIcon
-                sx={{ fontSize: { xs: "20px", sm: "20px", md: "34px" } }}
-              />
+              <DeleteForeverIcon sx={{ fontSize: "34px" }} />
             </Typography>
           </Stack>
         </CardActions>
