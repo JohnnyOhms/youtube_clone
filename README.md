@@ -1,8 +1,17 @@
-# Getting Started with Create React App
+# Getting Started with YouTubeV2.0 Web App
 
+### `Demo 🚀`
+
+Runs the app in Demo mode.\
+Open [http://youtubev2-five.vercel.app](http://youtubev2-five.vercel.app) to view it in the browser.
+
+### `Backend server💻 `
+
+Open [https://youtubev2-server.onrender.com](https://youtubev2-server.onrender.com) to view it in the browser.
+Open [https://github.com/JohnnyOhms/Youtube-clone-Backend-](https://github.com/JohnnyOhms/Youtube-clone-Backend-) to view source code on github.
+
+## Available React Scripts 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
