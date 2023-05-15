@@ -14,7 +14,6 @@ import ResetPassword from "./component/auth/resetPassword";
 import AuthContext from "./context/authContext";
 import SearchFeed from "./component/searchfeed/SearchFeed";
 import ProtectedRoute from "./component/protected/protectedRoute";
-import ErrorBoundary from "./component/error/ErrorBoundary";
 const PlayVideo = lazy(() => import("./component/playVideo/PlayVideo"));
 const VideoChannel = lazy(
   () => import("./component/Video channel/VideoChannel")
@@ -54,9 +53,7 @@ function App() {
                     path="/channel/:channelId"
                     element={
                       <Suspense fallback={<LazyLoad />}>
-                        <ErrorBoundary>
                           <VideoChannel />
-                        </ErrorBoundary>
                       </Suspense>
                     }
                   />

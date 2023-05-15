@@ -14,10 +14,10 @@ import Loader from "../loader/Loader";
 import ErrorMssg from "../error/errorMssg";
 
 const VideoChannel = () => {
-  // const UNCHANGED: string = "UNCHANGED";
-  // useEffect(() => {
-  //   alert("If page returns Blank, Please fresh to load Content 😪");
-  // }, [UNCHANGED]);
+  const UNCHANGED: string = "UNCHANGED";
+  useEffect(() => {
+    alert("If page returns Blank, Please fresh to load Content 😪");
+  }, [UNCHANGED]);
   const { channelId } = useParams();
   const dispatch = useAppDispatch();
   useEffect(() => {
